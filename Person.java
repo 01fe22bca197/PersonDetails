@@ -2,7 +2,7 @@ import java.time.LocalDate;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;
 
-public class Person {
+public class Person extends Persondetails {
     public String name;
     public String dob;
 
@@ -25,6 +25,6 @@ public class Person {
         e.name = "Arpitha";
         e.displayName();
         e.displayAge("15-03-2004");
-
+        e.displaydetails();
     }
 }
